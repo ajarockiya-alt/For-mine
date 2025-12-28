@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For You ❤️</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff758c, #ff7eb3);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 42px;
+    }
+    p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .heart {
+      font-size: 60px;
+      animation: beat 1s infinite;
+    }
+    @keyframes beat {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+
+<body>
+<audio autoplay loop>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="playSong()"
+style="padding:14px 28px;
+font-size:18px;
+border:none;
+border-radius:30px;
+background:white;
+color:#ff4f7b;
+cursor:pointer;
+margin-top:20px;">
+💗 Tap here, this song is for you
+</button>
+
+<p>Before you read… tap this ❤️</p>
+
+<script>
+  function playSong() {
+    document.getElementById("bgm").play();
+  }
+</script>
+
+  <div class="heart">❤️</div>
+  <h1>Hey Love</h1>
+
+  <p>
+    This website is just for you.  
+    Every line here exists because of how special you are to me.
+    Even on days when you don’t say much,
+    my heart understands you completely.
+  </p>
+
+  <br><br>
+
+  <p>
+    I may not be perfect,
+    but loving you is the most natural thing I’ve ever done.
+  </p>
+
+  <h2>— I'm always yours di Chinji </h2>
+</body>
+</html>
